@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="返回主畫面"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerStage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvStageTitle"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 👾 敵人列表（可點） -->
+        <LinearLayout
+            android:id="@+id/enemyContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="攻略"
+            android:paddingTop="10dp"/>
+
+        <!-- ⭐ 推薦貓咪 -->
+        <TextView
+            android:id="@+id/tvCats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="推薦貓咪"
+            android:paddingTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

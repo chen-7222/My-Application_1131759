@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- 🐱 貓咪圖片 -->
+        <ImageView
+            android:id="@+id/catImage"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD" />
+
+        <!-- 🐱 貓咪名稱 -->
+        <TextView
+            android:id="@+id/catName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="貓咪名稱"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <!-- 📊 基本資訊區塊 -->
+        <TextView
+            android:id="@+id/catInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:text="資訊"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+
+        <!-- 🔙 返回按鈕（可選） -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="返回圖鑑" />
+
+    </LinearLayout>
+
+</ScrollView>
